@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/TimMansell/netlify-faunadb.git"
   },
+  "scripts": {
+    "build": "netlify-lambda build src/functions"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,6 +19,7 @@
   "homepage": "https://github.com/TimMansell/netlify-faunadb#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "netlify-lambda": "^2.0.1",
     "node-fetch": "^2.6.0"
   }
 }
