@@ -19,6 +19,7 @@
   "homepage": "https://github.com/TimMansell/netlify-faunadb#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "encoding": "^0.1.13",
     "netlify-lambda": "^2.0.1",
     "node-fetch": "^2.6.0"
   }
