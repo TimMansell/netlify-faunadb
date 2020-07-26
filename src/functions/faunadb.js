@@ -23,7 +23,7 @@ const fauna = () =>
       },
     })
       .then((res) => res.text())
-      .then((body) => body)
+      .then((body) => resolve(body))
       .catch(() => reject("Failed to fetch query results"));
   });
 
