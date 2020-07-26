@@ -27,7 +27,7 @@ const fauna = () =>
       .catch(() => reject("Failed to fetch query results"));
   });
 
-exports.handler = async (event) => {
+export async function handler(event, context) {
   const body = await fauna();
 
   console.log({ body });
@@ -36,4 +36,4 @@ exports.handler = async (event) => {
     statusCode: 200,
     body: `${body}`,
   };
-};
+}
