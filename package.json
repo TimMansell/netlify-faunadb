@@ -1,0 +1,21 @@
+{
+  "name": "netlify-faunadb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimMansell/netlify-faunadb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimMansell/netlify-faunadb/issues"
+  },
+  "homepage": "https://github.com/TimMansell/netlify-faunadb#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}
