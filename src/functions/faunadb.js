@@ -30,8 +30,10 @@ const fauna = () =>
 exports.handler = async (event) => {
   const body = await fauna();
 
+  console.log({ body });
+
   return {
     statusCode: 200,
-    body,
+    body: `${body}`,
   };
 };
